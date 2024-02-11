@@ -21,7 +21,7 @@ module.exports = {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    publicPath: isProduction ? "/repository-name/" : "/",
+    publicPath: isProduction ? "/testing-practice/" : "/",
   },
   module: {
     rules: [
